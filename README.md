@@ -1,4 +1,4 @@
-# baka_bot
+# Right?Left?
 2022/Spring/NLP/FinalProject
 
 - 팀 구성
