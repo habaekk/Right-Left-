@@ -14,7 +14,7 @@
 데이터의 수는 약 10,000 개. 
   - feature은 content_lst로, 위의 자료에 대한 본문의 내용이 저장되어있다. list 형태.
   - target은 party_lst에, 자료와 관련된 대통령이 어느 쪽 정당인지 0과 1로 표현되어 있다(0: Democractic, 1: Republican). list 형태.
-  - 모델은 sklearn의 ComplementNB를 이용하였다.
+  - 모델은 sklearn의 SVM를 이용하였다.
   - 모델 학습시에 Bag of Words를 이용하여 feature를 처리한다.
   - 학습된 모델은 model.pkl 로 저장되어 있다. (vectorizer, classifier) = model
 
