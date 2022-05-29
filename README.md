@@ -21,7 +21,7 @@
 - 모델 평가
   - Validation set approach와 Cross Validation을 이용하여 모델이 데이터를 잘 학습했는지 평가하였다.
   - Validation set approach 결과:
-
+    - <img width="751" alt="ValidationSet" src="https://user-images.githubusercontent.com/74465964/170869938-0748a6c9-66af-4bae-8d68-b1e2c9f5d9b2.png">
   - Cross Validation 결과:
 
 
