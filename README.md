@@ -19,11 +19,13 @@
   - 학습된 모델은 model.pkl 로 저장되어 있다. (vectorizer, classifier) = model
   - 소스파일(ipynb)을 제외한 _lst나 model.pkl 등은 모두 pickle 라이브러리를 이용하여 저장하였다. 로드하여 쓸 때도 pickle을 써야한다.
 
+
 - 모델 평가
   - Validation set approach와 Cross Validation을 이용하여 모델이 데이터를 잘 학습했는지 평가하였다.
   - Validation set approach 결과:
     - <img width="751" alt="ValidationSet" src="https://user-images.githubusercontent.com/74465964/170869938-0748a6c9-66af-4bae-8d68-b1e2c9f5d9b2.png">
   - Cross Validation 결과:
+    - <img width="749" alt="CV" src="https://user-images.githubusercontent.com/74465964/170870729-5d13da43-1f87-4db6-8bc1-ff3116da5101.png">
 
 
 - 기능
@@ -33,4 +35,3 @@
 
 - 데모
   - https://youtu.be/ZNwH5zgO5Ok
-
