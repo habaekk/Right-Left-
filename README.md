@@ -17,6 +17,7 @@
   - 모델은 sklearn의 SVM를 이용하였다.
   - 모델 학습시에 Bag of Words를 이용하여 feature를 처리한다.
   - 학습된 모델은 model.pkl 로 저장되어 있다. (vectorizer, classifier) = model
+  - 소스파일(ipynb)을 제외한 _lst나 model.pkl 등은 모두 pickle 라이브러리를 이용하여 저장하였다. 로드하여 쓸 때도 pickle을 써야한다.
 
 - 모델 평가
   - Validation set approach와 Cross Validation을 이용하여 모델이 데이터를 잘 학습했는지 평가하였다.
